@@ -1,0 +1,27 @@
+{
+  "name": "uroboros_ui",
+  "version": "1.0.0",
+  "description": "Frontend for uroboros",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qzxq11/uroboros_UI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/qzxq11/uroboros_UI/issues"
+  },
+  "homepage": "https://github.com/qzxq11/uroboros_UI#readme",
+  "dependencies": {
+    "@monaco-editor/react": "^4.7.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "multer": "^2.2.0"
+  }
+}
