@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+void calculate_secret() {
+    int a = 5;
+    int b = 10;
+    int result = a * b;
+    printf("The calculated secret is: %d\n", result);
+}
+
+int main() {
+    printf("Starting Uroboros test...\n");
+    calculate_secret();
+    return 0;
+}
