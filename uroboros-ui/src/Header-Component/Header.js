@@ -3,16 +3,11 @@ import './Header.css';
 
 function Header() {
   return (
-    <header className="site-header">
-      <div className="header-logo">
-        <a href="/">Uroboros</a>
+    <header className="app-header">
+      <div className="header-left">
+        <h1 className="header-title">Uroboros</h1>
+        <span className="header-subtitle">Disassembly & Reassembly Pipeline</span>
       </div>
-      <nav className="header-navigation">
-        <ul>
-          <li><a href="/">Tool</a></li>
-          <li><a href="/about">About</a></li>
-        </ul>
-      </nav>
     </header>
   );
 }
