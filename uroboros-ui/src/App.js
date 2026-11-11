@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import Editor from '@monaco-editor/react';
-import './App.css';
+import './App.css';                            // <--- This line is critical
 import Header from './Header-Component/Header';
 
 function App() {
